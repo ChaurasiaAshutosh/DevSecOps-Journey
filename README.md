@@ -14,3 +14,8 @@ This repository documents my hands-on learning journey from beginner to advanced
 - Pushed first code to GitHub
 
 📂 Folder Structure:
+DevSecOps-Journey/
+┣ notes/
+┣ logs/
+┣ scripts/
+┗ README.md
