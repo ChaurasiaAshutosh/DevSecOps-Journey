@@ -1,0 +1,18 @@
+● rsyslog.service - System Logging Service
+     Loaded: loaded (/lib/systemd/system/rsyslog.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2025-05-21 10:29:06 +0545; 14min ago
+TriggeredBy: ● syslog.socket
+       Docs: man:rsyslogd(8)
+             https://www.rsyslog.com/doc/
+   Main PID: 778 (rsyslogd)
+      Tasks: 4 (limit: 4581)
+     Memory: 4.2M
+     CGroup: /system.slice/rsyslog.service
+             └─778 /usr/sbin/rsyslogd -n -iNONE
+
+मई 21 10:29:06 ubuntu-virtual-machine systemd[1]: Starting System Logging Service...
+मई 21 10:29:06 ubuntu-virtual-machine systemd[1]: Started System Logging Service.
+मई 21 10:29:06 ubuntu-virtual-machine rsyslogd[778]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+मई 21 10:29:06 ubuntu-virtual-machine rsyslogd[778]: rsyslogd's groupid changed to 110
+मई 21 10:29:06 ubuntu-virtual-machine rsyslogd[778]: rsyslogd's userid changed to 104
+मई 21 10:29:06 ubuntu-virtual-machine rsyslogd[778]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="778" x-info="https://www.rsyslog.com"] start
